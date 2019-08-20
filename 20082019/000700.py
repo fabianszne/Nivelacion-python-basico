@@ -26,7 +26,7 @@ def funcion3 (x, y) : #funcion que recibe dos parametros , x e y y realiza la re
 j= funcion3 (5,6) 
 print j   
 
-# minuto 7 en adelante, corresponde a algunos ejercicios similares a los anteriormente mostrados.
+# minuto 7 corresponde a algunos ejercicios similares a los anteriormente mostrados.
 
 
 # la siguiente funcion recibe el nombre, altura y peso de una persona.Permite conocer si una persona esta en su peso, bajo o sobre peso.
@@ -35,7 +35,7 @@ name = raw_input("ingrese un nombre:")
 height = float(input ("ingrese altura en metros(ejemplo : 1.80) :"))
 weight = float(input (" igrese peso en kilogramos(ejemplo : 80):"))
 
-def bmi_calculador(name, height, weight):
+def bmi_calculador(name, height, weight): #funcion que recibe tres parametros.
     bmi = weight / (height **2)
     print " bmi :", bmi
     if bmi < 25:
@@ -48,7 +48,8 @@ print resultado
 
 milla = float(input("ingrese un valor en millas :"))
 
-def millas_a_kilometro( milla):
+
+def millas_a_kilometro( milla):# funcion que recibeel valor en millas y lo entrega en kilometros.
         kilometro = milla*1.6
         return    "El valor en kilometros es :" + str(kilometro)       
         
