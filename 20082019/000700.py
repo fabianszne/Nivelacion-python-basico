@@ -7,7 +7,7 @@ Created on Fri Mar 16 16:14:00 2018
 
 from numpy import *
 
-# en el video se explican varias formas de definir una funcion, en una no se le dan parametros y en la otra, se le da un parametro.
+# en el video se explican varias formas de definir una funcion, en una no se le dan parametros y en la otra, se le dan parametros.
 
 def funcion1 (): # funcion que al llamarla imprime hola.
     print " hola " #imprimir hola.
@@ -48,8 +48,8 @@ print resultado
 
 milla = float(input("ingrese un valor en millas :"))
 
-
-def millas_a_kilometro( milla):# funcion que recibeel valor en millas y lo entrega en kilometros.
+# funcion que recibeel valor en millas y lo entrega en kilometros
+def millas_a_kilometro( milla):
         kilometro = milla*1.6
         return    "El valor en kilometros es :" + str(kilometro)       
         
