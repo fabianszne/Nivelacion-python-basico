@@ -36,10 +36,10 @@ print "el numero final es : " + str(total2)
 #en este codigo se deben tomar todos los multiplos de 3 y 5, luego se deben sumar y observar si la suma de todos ellos es menor que 100. 
 lista3 = []
 lista4 = range(1,100) 
-for i in lista4: # ciclo que discrimna y agrega numeros multiplos de 3 y 5, desde una lista de numero del 1 hasta 100 sin contar este ultimo.
+for i in lista4: # ciclo que discrimina y agrega numeros multiplos de 3 y 5, desde una lista de numeros del 1 hasta 100 sin contar este ultimo.
     if i%3 == 0: #se seleccionan  los numeros multiplos de 3.
        lista3.append(i) #se agregan a lista3
-    elif i%5 == 0:#se seleccionan  los numeros multiplos de 3.
+    elif i%5 == 0:#se seleccionan  los numeros multiplos de 5.
         lista3.append(i) #se agregan a lista3.
 
 #print lista3
